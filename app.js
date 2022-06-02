@@ -4,8 +4,8 @@ const port = process.env.PORT || 3000
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>BINH BO</h1>');
-  res.end('<h1>TINH HO CHE</h1>');
+  res('<h1>BINH BO</h1>');
+  res('<h1>TINH HO CHE</h1>');
   res.end('<h1>KIET MOI DEN</h1>');
 });
 
